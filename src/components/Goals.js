@@ -40,7 +40,7 @@ function Goals() {
                 </div>
             </div>
             <button
-                onClick={() => window.location.href = "#/feed"}
+                onClick={() => window.location.href = "https://georgeshalamberidze.github.io/onesoul/#/feed"}
                 className="submit__interest ">Submit</button>
         </div>
     )
