@@ -4,9 +4,9 @@ function Hamburger() {
     return (
         <div className="hamburger__overlay">
             <div className="interest__link_container">
-                <a href="/interest">Interest</a>
-                <a href="/interest/goals">Goals</a>
-                <a href="/interest/feed">Feed</a>
+                <a href="https://georgeshalamberidze.github.io/onesoul/#/interest">Interest</a>
+                <a href="https://georgeshalamberidze.github.io/onesoul/#/goals">Goals</a>
+                <a href="https://georgeshalamberidze.github.io/onesoul/#/feed">Feed</a>
             </div>
         </div>
     )
