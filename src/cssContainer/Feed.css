@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+
+/* NAVBAR STYLING */
+.icon_container svg{
+    height: 2rem;
+    width: 2rem;
+}
+
+.feed__nav__container{
+    width: 100vw;
+    background-color: white;
+}
+
+#feed__nav{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.username_container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
+
+.username_container:hover{
+    opacity: 0.6;
+}
+
+.username_container svg{
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 3px solid white;
+}
+
+.active-circle{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(13, 185, 65, 0.973);
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid white;
+    left: 35px;
+    bottom: 7px;
+}
+
+.icon_container a{
+    color: black;
+    position: relative;
+    margin: 0 2px;
+    padding: 0 50px;
+}
+
+.icon_container a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+    width: 100%;
+    display: block;
+    height: 3px;
+    cursor: none;
+}
+
+.icon_container a:hover::before{
+    background-color: black; 
+}
+
+.icon_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondNav_h3{
+    margin: 20px ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (max-width: 750px){
+    .feed__nav__container{
+        width: 100%;
+    }
+    #feed__nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #feed__nav h2{
+        display: none;
+    }
+
+    #feed__nav .icon_container{
+        order: 1;
+    }
+
+    .icon_container a{
+        margin: 10px auto;
+    }
+
+    .icon_container a::before{
+        bottom: -10px;
+    }
+}
+
+/* Main Content Styling */
+.feed__container{
+    margin: 15px auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* L E F T SECTION */
+.left_section{
+    flex: 0.2;
+}
+
+.feed__left_container{
+    margin: 0 auto;
+}
+
+.feed__left_container .feed-item img{
+    width: 60%;
+    height: 90px;
+    border-radius: 20px;
+    margin: 2px auto;
+}
+
+.feed-item{
+    width: 90%;
+    margin: 1px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.feed-item::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    left: -15px;
+}
+
+.feed-item::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    right: -5px;
+}
+
+.feed-item:hover::before,
+.feed-item:hover::after{
+    background-color: rgba(0, 0, 0, 0.233);
+}
+
+.feed-item small{
+    font-size: .55rem;
+    line-height: 10px;
+    display: block;
+}
+
+.feed-item p{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.feed-item .text_container{
+    width: 60%;
+    margin-left: 20px;
+}
+
+/* M I D D L E SECTION */
+.middle_section{
+    flex: 0.5;
+}
+
+.jujuna {
+    position: relative;
+    display: flex;
+}
+
+.jujuna > img{
+    max-height: 500px;
+}
+
+.feed__btn_container{
+    position: absolute;
+    display: flex;
+    bottom: 15px;
+    left: 15px;
+}
+
+.img-btn{
+    margin: 0 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #707070;
+    color: #D8D8D8;
+    padding: 3px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.img-btn:hover{
+    border: 1px solid rgb(163, 152, 152);
+}
+
+.img-btn:focus{
+    outline: none;
+}
+
+.rightSec{
+    width: 100%;
+}
+
+.details-btn_closed{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    justify-content: center;
+    width: 75%;
+    left: 50%;  
+    transform: translate(-50%);
+    background-color: #FFB195;
+    color: white;
+    padding: 15px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.details-btn_closed:focus{
+    outline: none;
+}
+
+.details-btn_closed:hover{
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.64)
+}
+
+.rightSec .location {
+    color: #5D5D5D;
+    font-size: 9px;
+    padding: 9px 19px;
+    display: flex;
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    margin: 20px
+}
+
+.head .jujuna_text{
+    margin-left: 20px;
+    color: #205072;
+}
+
+.bottom{
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px
+}
+
+
+/* //////////////// */
+.jujuna-item{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    color: #3e6e7fb0;
+    align-items: center;    
+}
+
+.jujuna-item img{
+    width: 60px;
+    height: 56px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.img_description_price{
+    display: flex;
+    align-items: center;
+}
+
+/* ////////////////////// Middle - Right */
+.product{
+    display: flex;
+    flex-direction: column;
+}
+
+.chosen_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: relative;
+    background-color: white;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.chosen_item:hover .X{
+    background-color: #FDA797;
+    color: white;
+}
+
+.chosen_item p{
+    padding-right: 10px;
+}
+
+.chosen_item img{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.chosen_item .X{
+    background-color: #a89f9f18;
+    height: 100%;
+    position: absolute;
+    right: -35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:rgba(83, 77, 77, 0.288)
+}
+
+.delivery h3,
+.frequency h3,
+.subscription h3{
+    padding: 10px 0;
+}
+
+.chosen_goods h3{
+    padding-bottom: 10px;
+}
+
+.delivery_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery_container button{
+    flex: 0.30;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delivery_container button:focus{
+    outline: none;
+}
+
+.delivery_container button:hover,
+.frequency_container button:hover,
+.subscription_container:hover{
+    background-color: #FDBBA2;
+    color: white;
+}
+
+.frequency_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.frequency_container button{
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.frequency_container button:hover{
+    background-color: #FDBBA2;
+    color: white;
+}
+
+.frequency_container button:focus{
+    outline: none;
+}
+
+.subscription_container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #FDBBA2;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.feed__right_container .subscribe-now{
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #45D380;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.feed__right_container .subscribe-now:focus{
+    outline: none;
+}
+
+.feed__right_container .subscribe-now:hover{
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.64)
+}
+
+/* R I G H T SECTION */
+.right_section{
+    flex: 0.25;
+}
+
+@media (max-width: 1380px){
+    .feed-item::before,
+    .feed-item::after{
+        display: none;
+    }
+
+    .feed-item{
+        width: 90%;
+        margin: 5px auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        border: 1px rgb(175, 175, 156) solid;
+    }
+
+    .feed__left_container .feed-item img{
+        width: 90%;
+        height: auto;
+    }
+
+    .feed-item .text_container{
+        margin: 0;
+        width: 90%;
+    }
+
+    .feed-item p{
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1190px){
+    .feed-item p{
+        font-size: 10px;
+        margin: 5px auto;
+    }
+    .feed-item small{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 470px){
+    .feed-item p{
+        transform: translateX(-15%)
+    }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "date":  "April 9th, 14:45pm",
+        "delivery": "Glovo"
+    },
+    {
+        "date":  "March 9th, 11:45pm",
+        "delivery": "Wolt"
+    },
+    {
+        "date":  "January 9th, 16:45pm",
+        "delivery": "Bolt"
+    },
+    {
+        "date":  "Juna 9th, 19:45pm",
+        "delivery": "Elvis"
+    }
+]

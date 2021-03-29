@@ -1,0 +1,144 @@
+.account_size_adjust{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+    padding: 30px;
+    min-width: 610px;
+    min-height: 538px;
+}
+
+.account_option_display{
+    flex: 0.8;
+}
+
+.account_container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.account_container h2{
+    margin: 20px 0;
+}
+
+.account_wrapper .account_options{
+    flex: 0.15;
+    height: 400px;
+    margin: 10px 0;
+    border-right: 1px rgba(188, 188, 199, 0.541) solid; 
+    text-align: center;
+}
+
+.account_wrapper .account_options h3{
+    padding: 10px;
+}
+
+.account_options h3:nth-child(1),
+.account_options h3:nth-child(2){
+    margin-bottom: 50px;
+}
+
+.account_options h3{
+    cursor: pointer;
+}
+
+.account_options h3:hover{
+    opacity: 0.5;
+}
+
+.invisible_account_line{
+    width: 90%;
+    height: 5px;
+}
+
+.cart,
+.star,
+.card {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.cart svg,
+.star svg,
+.card svg{
+    margin-right: 20px;
+    font-size: 3.5rem;
+    border-radius: 40%;
+    color: white;
+    padding: 10px;}
+
+.cart svg{
+    background-color: #64A8E3;
+}
+
+.star svg{
+    background-color: #58B7A6;
+}
+
+.card svg{
+    background-color: #F6C15D;
+}
+
+.overview_container{
+    margin: 25px 0;
+    padding: 40px 10px;
+    width: 95%;
+    border-top: 1px rgba(188, 188, 199, 0.541) solid; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview_individual_wrapper small{
+    color: #42353567;
+}
+
+/* SETTINGS STYLING */
+.settings_input_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 25px 0;
+    padding: 40px 10px 0 10px;
+    width: 95%;
+    border-top: 1px rgba(188, 188, 199, 0.541) solid; 
+}
+
+
+.settings_container .account_settings_input{
+    outline: none;
+    margin: 5px 10px;
+    height: 60px;
+    border: 1px solid rgba(179, 172, 162, 0.336);
+    border-radius: 8px;
+}
+
+.settings_input_container input::placeholder{
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.account_save_btn{
+    background-color: #45D380;
+    color: white;
+    font-weight: bold;
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+
+.account_save_btn:focus{
+    outline: none;
+}
+
+.account__btn_container{
+    width: 95%;
+    display: flex;
+    justify-content: center ;
+}
+
+.account_save_btn:hover{
+    opacity: 0.7;
+}

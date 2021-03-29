@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.interest__container{
+    min-width: 80vw;
+    height: 100vh;
+}
+
+/*  Nav Bar  */
+.navbar-container{
+    z-index: 20;
+}
+
+#nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+#nav .interest_h3{
+    margin: 20px 58px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-items{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-items li {
+    list-style-type: none;
+    margin: 0 40px;
+    cursor: pointer;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items a:hover{
+    color:rgba(32, 40, 44, 0.473)
+}
+
+.interest__grid_container h3{
+    text-align: center;
+}
+
+/* Grid Styling */
+.grid_items{
+    display: grid;
+    max-width: 1000px;
+    margin: 20px auto;   
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.interest__hero_container{
+    padding-top: 70px;
+}
+
+.interest-item{
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px rgb(175, 175, 156) solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.interest-item:hover{
+    cursor: pointer;
+    background-color:rgba(207, 207, 203, 0.637);
+    transform: scale(1.02);
+    transition: transform .3s ease-in-out;
+}
+
+.interest-item.interest_selected{
+    background-color:rgba(207, 207, 203, 0.637);
+}
+
+.interest-item p{
+    font-size: 1rem;
+}
+
+.interest-item small{
+    font-size: .6rem;
+}
+
+.interest-item img{
+    width: 75%;
+    border-radius: 20px;
+}
+
+/* GRID MEDIA */
+@media (max-width: 850px){
+    .grid_items{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 620px){
+    .grid_items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 410px){
+    .grid_items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* //////////////...../////////// */
+/* Hamburger Menu */
+.interest__hamburger span{
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    display: none;
+    margin: 5px 0;
+    transition: all 300ms ease-in;
+    transform-origin: 3px 1.8px;
+}
+
+.interest__hamburger{
+    position: absolute;
+    right: 10%;
+}
+
+.open span:first-child {
+    transform: rotate(45deg);
+}
+
+.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.open span:last-child {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 680px){
+    .nav-items{
+        left: 70%;
+    }
+
+    .nav-items li{
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 400px){
+    .interest__hamburger span{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+}
+
+/* Submit Btn */
+.submit__interest{
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2%;
+}   
+
+.submit__interest:hover{
+    opacity: .5;
+}
+
+.submit__interest:focus{
+    outline: none;  
+}
+
+/* Hamburger Overlay Styling */
+
+.interest__hero_container .hamburger__overlay{
+    display: none;
+    position: fixed;
+    top: 72px;
+    left: 0; 
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(180, 191, 194, 0.24),
+        rgba(201, 178, 178, 0.233)
+      );
+    backdrop-filter: blur(2rem);
+}
+
+.interest__link_container a{
+    display: flex;
+    justify-content: center;
+    margin: 80px 5px;   
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: .3rem;
+}
+
+.interest__link_container a:hover{
+    opacity: 0.5;
+}

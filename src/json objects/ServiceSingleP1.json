@@ -1,0 +1,30 @@
+[
+    {
+        "wrapper": "fee_wrapper",
+        "box": "box1",
+        "price": "price_month1",
+        "h2": "$ 124.43",
+        "small": "Last Month"
+    },
+    {
+        "wrapper": "fee_wrapper",
+        "box": "box2",
+        "price": "price_month2",
+        "h2": "$ 94",
+        "small": "Last Month"
+    },
+    {
+        "wrapper": "fee_wrapper",
+        "box": "box3",
+        "price": "price_month3",
+        "h2": "$ 324.43",
+        "small": "Last Month"
+    },
+    {
+        "wrapper": "fee_wrapper",
+        "box": "box4",
+        "price": "price_month4",
+        "h2": "$ 24.87",
+        "small": "Last Month"
+    }
+]
