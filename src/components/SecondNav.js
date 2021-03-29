@@ -18,8 +18,8 @@ function SecondNav() {
                     onClick={() => window.location.href="https://georgeshalamberidze.github.io/onesoul/#/interest"}
                 >Persub</h2>
                 <div className="icon_container">
-                    <a href="/feed"><AiOutlineHome /></a>
-                    <a href="/service"><FaRegCalendarAlt /></a>
+                    <a href="https://georgeshalamberidze.github.io/onesoul/#/feed"><AiOutlineHome /></a>
+                    <a href="https://georgeshalamberidze.github.io/onesoul/#/service"><FaRegCalendarAlt /></a>
 
                 </div>
                 <div className="username_container" onClick={() => window.location.href="https://georgeshalamberidze.github.io/onesoul/#/account"}>
