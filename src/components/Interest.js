@@ -40,7 +40,7 @@ function Interest() {
                         })}
                     </div>
                     <button
-                        onClick={() => window.location.href = "/goals"}
+                        onClick={() => window.location.href = "https://georgeshalamberidze.github.io/onesoul/#/goals"}
                         className="submit__interest">Submit</button>
                 </div>
             </div>
