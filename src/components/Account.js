@@ -20,7 +20,7 @@ function Account() {
                         <section className="account_options">
                             <h3 onClick={() => onClickOverview()}>Overview</h3>
                             <h3 onClick={() => onClickSettings()}>Settings</h3>
-                            <h3 onClick={() => window.location.href="https://georgeshalamberidze.github.io/onesoul/#/"}>Logout</h3>
+                            <h3 onClick={() => window.location.href="#/"}>Logout</h3>
                         </section>
                         <section className="account_option_display">
                             <div className="account_overview">
