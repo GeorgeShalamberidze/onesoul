@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Feed from './components/Feed'
 import Interest from './components/Interest'
-import LandingPage from "./components/LandingPage";
+import LandingPage from "components/LandingPage";
 import Goals from "./components/Goals"
 import ServiceSinglePage from "./components/ServiceSinglePage"
 import Account from "./components/Account"
