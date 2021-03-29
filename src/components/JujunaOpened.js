@@ -106,7 +106,7 @@ function JujunaOpened({ buttonState, JujunaOpened }) {
                             <MdAccountCircle />
                             <span className="active-circle"></span>
                         </div>
-                        <div className="userName" onClick={() => window.location.href="/account"}>
+                        <div className="userName" onClick={() => window.location.href="https://georgeshalamberidze.github.io/onesoul/#/account"}>
                             <h3>George Shalamberidze</h3>
                             <small><em>Tbilisi, Georgia</em></small>
                         </div>
