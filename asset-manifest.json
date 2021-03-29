@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/onesoul/static/css/main.8367a0e9.chunk.css",
+    "main.js": "/onesoul/static/js/main.7f09b6ae.chunk.js",
+    "main.js.map": "/onesoul/static/js/main.7f09b6ae.chunk.js.map",
+    "runtime-main.js": "/onesoul/static/js/runtime-main.ea9e59d6.js",
+    "runtime-main.js.map": "/onesoul/static/js/runtime-main.ea9e59d6.js.map",
+    "static/js/2.9e867010.chunk.js": "/onesoul/static/js/2.9e867010.chunk.js",
+    "static/js/2.9e867010.chunk.js.map": "/onesoul/static/js/2.9e867010.chunk.js.map",
+    "static/js/3.0f5356db.chunk.js": "/onesoul/static/js/3.0f5356db.chunk.js",
+    "static/js/3.0f5356db.chunk.js.map": "/onesoul/static/js/3.0f5356db.chunk.js.map",
+    "index.html": "/onesoul/index.html",
+    "static/css/main.8367a0e9.chunk.css.map": "/onesoul/static/css/main.8367a0e9.chunk.css.map",
+    "static/js/2.9e867010.chunk.js.LICENSE.txt": "/onesoul/static/js/2.9e867010.chunk.js.LICENSE.txt",
+    "static/media/jujuna.aa9e16c1.png": "/onesoul/static/media/jujuna.aa9e16c1.png",
+    "static/media/jujunaBig.c02a3166.png": "/onesoul/static/media/jujunaBig.c02a3166.png",
+    "static/media/Landing.css": "/onesoul/static/media/landing.d1d77c28.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea9e59d6.js",
+    "static/js/2.9e867010.chunk.js",
+    "static/css/main.8367a0e9.chunk.css",
+    "static/js/main.7f09b6ae.chunk.js"
+  ]
+}
