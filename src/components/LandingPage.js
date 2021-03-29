@@ -34,7 +34,7 @@ function LandingPage() {
 
                         <button
                             className="login-btn"
-                            onClick={() => window.location.href="/interest"}
+                            onClick={() => window.location.href="https://georgeshalamberidze.github.io/onesoul/#/interest"}
                         >LOG IN</button>
 
                         {/* MODAL */}
