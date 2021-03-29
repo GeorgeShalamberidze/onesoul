@@ -66,7 +66,7 @@ function LandingPage() {
                                         <input type="text" className="input new-password" placeholder="Create new password"></input>
                                     </div>
                                 </div>
-                                <button className="modal-btn" onClick={() => window.location.href="/interest"}>SIGN UP</button>
+                                <button className="modal-btn" onClick={() => window.location.href="/#/interest"}>SIGN UP</button>
                             </div>
                         </Modal>
                         <a href="#" 
