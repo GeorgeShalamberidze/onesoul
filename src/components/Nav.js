@@ -19,9 +19,9 @@ function Nav() {
             <nav id="nav">
                 <h2 className="interest_h3">Persub</h2>
                 <ul className="nav-items">
-                    <li><a href="/interest">Interest</a></li>
-                    <li><a href="/goals">Goals</a></li>
-                    <li><a href="/feed">Feed</a></li>
+                    <li><a href="https://georgeshalamberidze.github.io/onesoul/#/interest">Interest</a></li>
+                    <li><a href="https://georgeshalamberidze.github.io/onesoul/#/goals">Goals</a></li>
+                    <li><a href="https://georgeshalamberidze.github.io/onesoul/#/feed">Feed</a></li>
                 </ul>
 
                 <a
