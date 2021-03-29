@@ -15,14 +15,14 @@ function SecondNav() {
             <nav id="feed__nav" className="feed__nav">
                 <h2 
                     className="secondNav_h3"
-                    onClick={() => window.location.href="/interest"}
+                    onClick={() => window.location.href="https://georgeshalamberidze.github.io/onesoul/#/interest"}
                 >Persub</h2>
                 <div className="icon_container">
                     <a href="/feed"><AiOutlineHome /></a>
                     <a href="/service"><FaRegCalendarAlt /></a>
 
                 </div>
-                <div className="username_container" onClick={() => window.location.href="/account"}>
+                <div className="username_container" onClick={() => window.location.href="https://georgeshalamberidze.github.io/onesoul/#/account"}>
                     <MdAccountCircle />
                     <h3>George Shalamberidze</h3>
                     <span className="active-circle"></span>
